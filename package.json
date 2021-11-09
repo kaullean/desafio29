@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "artillery": "^2.0.0-4",
+    "babel-cli": "^6.26.0",
     "bcrypt": "^5.0.1",
     "boostrap": "^2.0.0",
     "compression": "^1.7.4",
