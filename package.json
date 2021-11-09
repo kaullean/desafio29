@@ -10,10 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:prod": "pm2 start dist/index.js --watch",
     "artillery:fork": "artillery run artillery/testFork.yml",
-    "start:profiling":"npm run transpile && node --prof dist/index.js",
-    "start:inspect":"npm run transpile && node --inspect dist/index.js",
-    "start:0x":"npm run transpile && 0x dist/index.js"
-
+    "start:profiling": "npm run transpile && node --prof dist/index.js",
+    "start:inspect": "npm run transpile && node --inspect dist/index.js",
+    "start:0x": "npm run transpile && 0x dist/index.js"
   },
   "keywords": [],
   "author": "",
